@@ -1,0 +1,43 @@
+.homecontainer {
+    margin:0;
+    height: 380px;
+    width: 320px;
+    border: solid 1px black;
+
+}
+
+.homecontainer img {
+    margin-top: 10px;
+    border-bottom: solid 1px black; 
+}
+
+.infolist {
+    list-style: none;
+    text-align: left;
+    border-top: solid 1px black;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; 
+    border-top: solid 1px black;
+    padding: 12px 0;
+}
+.red {
+    margin-right: 10px;
+    background-color: red;
+    outline: none;
+}
+.green {
+    background-color: green;
+    outline: none;
+}
+
+.invites {
+    display: flex;
+    justify-content: center;
+}
+
+.invites p {
+    margin-right: 10px;
+}

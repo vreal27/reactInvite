@@ -1,0 +1,35 @@
+.goingcontainer {
+    margin: auto;
+    height: 1600px;
+    width: 800px;
+    border: solid 1px black;
+
+}
+
+.goinginfo {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+}
+.attendees {
+    display: flex;
+    flex-wrap: wrap;
+}
+.goinginfo li {
+    height: 250px;
+    margin: 5px;
+    border: solid 1px black;
+}
+
+.goinginfo img {
+    height: 100px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
