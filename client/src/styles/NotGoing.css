@@ -1,0 +1,52 @@
+.notgoingcontainer {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    height: 1600px;
+    width: 1200px;
+
+}
+
+.notgoingcontainer h1 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.notgoinginfo {
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+    font-size: 12px;
+}
+.attendees {
+    display: flex;
+    flex-wrap: wrap;
+}
+.notgoinginfo li {
+    height: 250px;
+    width: 220px;
+    margin: 5px;
+    background-color: rgb(234,234,234)
+}
+
+.notgoinginfo img {
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: solid 2px gray; 
+}
+
+.notgoinginfo p {
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.notgoinginfo .name {
+    padding-top: 10px;
+    border-top: solid 1px gray; 
+}
+

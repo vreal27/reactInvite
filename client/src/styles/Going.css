@@ -1,13 +1,19 @@
 .goingcontainer {
+    font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     height: 1600px;
-    width: 800px;
-    border: solid 1px black;
+    width: 1200px;
 
+}
+
+h1 {
+    text-align: left;
+    margin-left: 50px;
 }
 
 .goinginfo {
     display: flex;
+    width: 1000px;
     flex-wrap: wrap;
     list-style: none;
     text-align: left;
@@ -19,16 +25,29 @@
 }
 .goinginfo li {
     height: 250px;
+    width: 220px;
     margin: 5px;
-    border: solid 1px black;
+    background-color: rgb(234,234,234)
 }
 
 .goinginfo img {
     height: 100px;
     width: 100px;
-    margin-left: 20px;
+    border-radius: 60px;
+    margin-left: 50px;
     margin-top: 30px;
     margin-bottom: 30px;
+    border: solid 2px gray; 
+}
+
+.goinginfo p {
+    margin: 0 5px;
+    font-size: 13px;
+}
+
+.goinginfo .name {
+    padding-top: 10px;
+    border-top: solid 1px gray; 
 }
 
 

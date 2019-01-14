@@ -32,15 +32,15 @@ class Home extends Component {
         <img src={person.picture}/> 
         <ul className = "infolist">
            <li>
-              <p>name: {person.fname} {person.lname}</p>
-              <p>phone: {person.phone}</p>
-              <p>email: {person.email}</p>
+              <p className="name"><b>Name:</b> {person.fname} {person.lname}</p>
+              <p><b>Home:</b> {person.phone}</p>
+              <p><b>Email:</b> {person.email}</p>
            </li>
         </ul>
     
         <div className="buttons">
-          <button className="red" onClick={this.notGoing} >test</button>
-          <button className="green" onClick={this.going}>test</button>
+          <button className="green" onClick={this.going}>Going</button>
+          <button className="red" onClick={this.notGoing} >Not going</button> 
         </div>
           
         

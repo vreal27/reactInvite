@@ -12,14 +12,15 @@ class Going extends Component {
         console.log(this.props)
         return (
             <div className = "goingcontainer">
+                <h1>Going</h1>
                 <div className = "attendees">
                     <ul className="goinginfo">
                     {this.props.going.map((title,i) => (
                         <li key={'title' + i}>
                             <img key={'pic' + i} src={title.picture}/> 
-                            <p>name: {title.fname} {title.lname}</p>
-                            <p>phone: {title.phone}</p>
-                            <p>email: {title.email}</p>
+                            <p className= "name"><b>name:</b> {title.fname} {title.lname}</p>
+                            <p><b>phone:</b> {title.phone}</p>
+                            <p><b>email:</b> {title.email}</p>
                         </li>
                     ))}
 
